@@ -7,14 +7,14 @@ This project explores student performance data using Python. It includes data in
 - Understand the dataset structure and data quality.
 - Handle missing, invalid, and inconsistent values.
 - Explore student performance using charts and summary statistics.
-- Analyze relationships between selected features and `FinalGrade`.
+- Analyze relationships between selected features and `Performance Index`.
 - Encode categorical features and scale selected numerical features.
 
 ## Dataset Source
 The dataset was obtained from Kaggle:
 
 **Student Performance Predictions**  
-https://www.kaggle.com/datasets/haseebindata/student-performance-predictions
+https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression
 
 Please refer to the Kaggle dataset page for the original dataset description, licensing information, and usage conditions.
 
@@ -32,10 +32,10 @@ Please refer to the Kaggle dataset page for the original dataset description, li
 2. Clean the data by converting selected columns to numeric types, handling invalid values, and filling missing values.
 3. Inspect potential outliers using boxplots and the IQR method.
 4. Explore numerical distributions and categorical counts using charts.
-5. Examine relationships between study hours, parental support, and final grades.
-6. Calculate a correlation matrix and inspect correlations with `FinalGrade`.
+5. Examine relationships between study hours, previous score, and Performance Index.
+6. Calculate a correlation matrix and inspect correlations with `Performance Index`.
 7. Encode categorical features, standardize selected numerical features, and use Pearson correlation and Chi-square tests to explore feature relationships.
-8. Save the selected columns to `student_performance_final.csv`.
+8. Save the selected columns to `student_performance_final1.csv` & `student_performance_final2.csv`.
 
 ## Conclusion
 This project provides practice in the main stages of data preprocessing and exploratory data analysis. The visualizations and statistical tests help explore patterns in student performance and possible relationships between student features and final grades. These findings show associations in the dataset and do not, by themselves, prove causation.
